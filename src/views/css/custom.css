@@ -1,0 +1,1969 @@
+/** ADD YOUR AWESOME CODES HERE **/
+
+.font_wedding {
+    font-family: 'GreatVibes-Regular';
+    font-size: 24px;
+}
+
+.color_primary {
+    color: #f06aa5;
+}
+
+.font_default {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.btn {
+    border-radius: 5px !important;
+}
+
+.img-fluid.rounded {
+    max-height: 360px !important;
+    height: 360px !important;
+}
+
+.about-img {
+    height: 360px !important;
+}
+
+.contact_zalo-facebook {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 16px;
+}
+
+.contact_zalo,
+.contact_fb {
+    padding: 0 12px;
+}
+
+.contact_fb-link {
+    font-size: 28px;
+    color: blue;
+    align-items: center;
+}
+
+.contact_zalo,
+.contact_fb {
+    margin: 0 8px;
+    font-weight: bold;
+    width: 30px;
+    height: 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 3px;
+}
+
+.contact_fb:hover {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.contact_zalo:hover {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+
+/* footer */
+
+.footer {
+    padding: 3em 0;
+    background-color: #15191c;
+}
+
+.footer-top {
+    display: flex;
+}
+
+.footer-grid h4 {
+    color: #fff;
+    font-size: 2em;
+}
+
+.footer-grid h4 span {
+    color: #f067ae;
+}
+
+ul.bottom {
+    margin-top: 1.6em;
+}
+
+ul.bottom li {
+    list-style: none;
+    display: block;
+    margin-bottom: 1em;
+    color: #606265;
+    font-size: 0.9em;
+}
+
+ul.bottom li a {
+    color: #606265;
+    font-size: 1em;
+}
+
+ul.bottom li a:hover {
+    color: #e01981;
+}
+
+ul.bottom i {
+    color: #fff;
+    margin-right: 0.5em;
+}
+
+.copy {
+    text-align: center;
+    background: #f067ae;
+    padding: 1em;
+}
+
+.copy p {
+    color: #fff;
+    font-size: 0.9em;
+}
+
+.copy p a {
+    color: #fff;
+}
+
+.copy p a:hover {
+    text-decoration: underline;
+}
+
+
+/*--top-move--*/
+
+#toTop {
+    display: none;
+    text-decoration: none;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    overflow: hidden;
+    width: 40px;
+    height: 22px;
+    border: none;
+    text-indent: 100%;
+    background: url(../images/move-top.png) no-repeat 0px 0px;
+}
+
+
+/*--responsive--*/
+
+@media (max-width:1440px) {
+    .post {
+        width: 80px;
+        height: 80px;
+        padding: 12px;
+        left: 42em;
+    }
+    .rsvp {
+        width: 27%;
+        margin: 0 auto;
+        top: 23%;
+        left: 37%;
+        padding: 2em 2em;
+    }
+}
+
+@media (max-width:1366px) {
+    .post {
+        width: 80px;
+        height: 80px;
+        padding: 12px;
+        left: 39.8em;
+    }
+    h3.tittle {
+        font-size: 3.5em;
+    }
+    .post-text h4 {
+        font-size: 2.4em;
+    }
+    .program-img h4 {
+        margin-top: 20px;
+        font-size: 2.6em;
+    }
+    .blog-right h6,
+    .blog-left h6 {
+        font-size: 1.6em;
+    }
+    .blog-right h4,
+    .blog-left h4 {
+        font-size: 2.4em;
+    }
+    .banner.two {
+        min-height: 258px;
+    }
+    h2.second-head {
+        font-size: 3.5em;
+        padding: 1.9em 0 0 0;
+    }
+    h3.tittle.atd {
+        margin: 0em auto 0 0;
+        padding-top: 1em;
+    }
+}
+
+@media (max-width:1280px) {
+    .banner {
+        min-height: 476px;
+    }
+    .rsvp {
+        width: 30%;
+        margin: 0 auto;
+        top: 23%;
+        left: 36%;
+        padding: 2em 2em;
+    }
+    .post {
+        width: 80px;
+        height: 80px;
+        padding: 12px;
+        left: 40.9em;
+        font-size: 0.9em;
+    }
+}
+
+@media (max-width:1024px) {
+    .welcome-top {
+        padding: 5em 0 5em 21em;
+    }
+    .banner-info {
+        margin-top: 5em;
+        text-align: center;
+        margin-left: 6em;
+    }
+    .banner {
+        min-height: 331px;
+    }
+    .registry-text {
+        padding: 2em 2em;
+    }
+    .registry-text h6 {
+        font-size: 1.4em;
+        margin-top: 0.8em;
+    }
+    .registry-text p {
+        font-size: 0.85em;
+        margin: 0.5em 0 0em 0;
+    }
+    .registry-text h4 {
+        font-size: 2.3em;
+    }
+    .testimonial-content p,
+    .program-text p,
+    .program-img p,
+    .our-story-text p,
+    .single_grid2 p,
+    .single-text p {
+        font-size: 0.9em;
+    }
+    .callbacks_nav.prev {
+        right: auto;
+        background-position: left top;
+        left: 328px;
+    }
+    .callbacks_nav.next {
+        left: auto;
+        background-position: right top;
+        right: 322px;
+    }
+    .post-text h4 {
+        font-size: 2.2em;
+    }
+    .program-img h4 {
+        margin-top: 20px;
+        font-size: 2.4em;
+    }
+    .post-time a {
+        padding: 0.6em 0.7em;
+        font-size: 0.9em;
+    }
+    label {
+        margin: 0;
+        font-size: 0.9em;
+        color: #34353a;
+        margin-bottom: 0.3em;
+        font-weight: 400;
+    }
+    .rsvp {
+        width: 36%;
+        margin: 0 auto;
+        top: 23%;
+        left: 32%;
+        padding: 2em 2em;
+    }
+    h3.tittle {
+        font-size: 3.3em;
+    }
+    .attend {
+        min-height: 603px;
+    }
+    .banner-info h3 {
+        font-size: 3.5em;
+    }
+    .banner.two {
+        min-height: 214px;
+    }
+    h2.second-head {
+        font-size: 3em;
+        padding: 1.9em 0 0 0;
+    }
+    .our-story {
+        padding: 4em 0;
+    }
+    .circle {
+        position: absolute;
+        top: 0em;
+        left: 463px;
+        display: block;
+        width: 16px;
+        height: 16px;
+    }
+    span.devide-line {
+        width: 0;
+        height: 316px;
+        top: 19px;
+        right: 463px;
+    }
+    .post {
+        width: 80px;
+        height: 80px;
+        padding: 12px;
+        left: 32.9em;
+        font-size: 0.9em;
+    }
+    .cate-grid {
+        background-size: 100%;
+        margin: 0 10px;
+        width: 31%;
+        padding: 0;
+        margin-bottom: 1.3em;
+    }
+    .cs-style-1 figcaption h3 {
+        font-size: 2em;
+        margin: 0em 0 0.3em 0;
+    }
+    .top-menu ul li a {
+        position: relative;
+        display: inline-block;
+        padding: 20px 16px;
+    }
+}
+
+@media (max-width:991px) {
+    .top-menu ul li a {
+        position: relative;
+        padding: 18px 4px;
+    }
+    .logo a h1 {
+        font-size: 3em;
+    }
+    .main-drop img {
+        width: 31%;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .couple img {
+        width: 51%;
+    }
+    .hands h4 {
+        font-size: 2.4em;
+        margin-bottom: 11px;
+    }
+    .hands {
+        top: 61%;
+        left: 5%;
+    }
+    .groom,
+    .bride {
+        padding: 2em 1.35em;
+    }
+    .couple h5 {
+        font-size: 1.8em;
+    }
+    .welcome-top {
+        padding: 4em 0 4em 18em;
+    }
+    .welcome-top a {
+        padding: 13px 17px;
+        font-size: 0.9em;
+    }
+    .registry-left {
+        float: left;
+        width: 50%;
+    }
+    .registry-right {
+        float: right;
+        width: 50%;
+    }
+    .registry-text p {
+        font-size: 0.8em;
+        margin: 0.5em 0 0em 0;
+    }
+    .registry-text h4 {
+        font-size: 2em;
+        padding: 0;
+        margin: 0;
+    }
+    .registry-text h6 {
+        font-size: 1.4em;
+        margin-top: 0.3em;
+    }
+    .testimonial-content {
+        width: 97%;
+        padding: 2em;
+        border: 4px solid #fff;
+        margin: 5em auto 3em;
+    }
+    .callbacks_nav.prev {
+        right: auto;
+        background-position: left top;
+        left: 204px;
+    }
+    .callbacks_nav.next {
+        left: auto;
+        background-position: right top;
+        right: 202px;
+    }
+    .program-img {
+        float: left;
+        width: 50%;
+    }
+    .program-text {
+        float: right;
+        width: 50%;
+        padding: 0;
+    }
+    .post-time a {
+        padding: 0.6em 0.7em;
+        font-size: 0.8em;
+    }
+    .footer-grid {
+        float: left;
+        width: 33%;
+    }
+    .footer-grid h4 {
+        font-size: 1.6em;
+    }
+    ul.bottom li {
+        margin-bottom: 1em;
+        font-size: 0.8em;
+    }
+    .our-story-img {
+        float: left;
+        width: 100%;
+    }
+    .our-story-text {
+        text-align: right;
+        width: 100%;
+        float: right;
+        padding: 0;
+        margin-top: 2em;
+    }
+    .our-story-text.two {
+        text-align: left;
+        float: left;
+    }
+    .our-story-img.two {
+        float: right;
+        margin-top: 1em;
+    }
+    .circle {
+        left: 360px;
+        width: 16px;
+        height: 16px;
+    }
+    span.devide-line {
+        width: 0;
+        height: 316px;
+        top: 19px;
+        right: 346px;
+    }
+    .blog-right h4,
+    .blog-left h4 {
+        font-size: 2.3em;
+    }
+    .post {
+        width: 80px;
+        height: 80px;
+        padding: 12px;
+        left: 31.4em;
+        font-size: 0.9em;
+    }
+    .cate-grid {
+        background-size: 100%;
+        margin: 0 10px;
+        width: 29%;
+        padding: 0;
+        margin-bottom: 1.3em;
+    }
+    .cs-style-1 figcaption span {
+        font-size: 0.7em;
+    }
+    .cs-style-1 figcaption h3 {
+        font-size: 1.5em;
+        margin: 0em 0 0.3em 0;
+    }
+    .cs-style-1 figcaption a {
+        margin-top: 0.5em;
+        padding: 6px 21px;
+        font-size: 0.7em;
+    }
+    .section-contact {
+        padding: 4em 0 4em 0;
+    }
+    .map iframe {
+        height: 300px;
+    }
+    .preview {
+        float: left;
+        width: 21%;
+    }
+    .data {
+        padding: 0;
+        float: right;
+        width: 79%;
+    }
+    .our-story-img img {
+        width: 100%;
+    }
+}
+
+@media (max-width:800px) {
+    .contact-in {
+        padding-left: 0;
+        padding: 0;
+    }
+    .section-contact {
+        padding: 4em 0 3em 0;
+    }
+    .post {
+        width: 80px;
+        height: 80px;
+        padding: 12px;
+        left: 24.6em;
+        font-size: 0.9em;
+    }
+    .banner.two {
+        min-height: 187px;
+    }
+    h2.second-head {
+        font-size: 2.8em;
+        padding: 1.6em 0 0 0;
+    }
+    .rsvp {
+        width: 42%;
+        margin: 0 auto;
+        top: 23%;
+        left: 28%;
+        padding: 2em 2em;
+    }
+    .our-story-img {
+        float: left;
+        width: 100%;
+        padding: 0;
+    }
+    .our-story-img.two {
+        float: right;
+        margin-top: 1em;
+        padding: 0;
+    }
+    .test img {
+        width: 14%;
+    }
+    .callbacks_nav.next {
+        left: auto;
+        background-position: right top;
+        right: 236px;
+    }
+    .callbacks_nav.prev {
+        right: auto;
+        background-position: left top;
+        left: 233px;
+    }
+    .callbacks_nav {
+        top: 17%;
+        height: 70px;
+        width: 40px;
+        background: transparent url("../images/arrows.png") no-repeat left top;
+        margin-top: 0%;
+    }
+    .friends {
+        min-height: 442px;
+    }
+    .test h5 {
+        margin-top: 18px;
+        font-size: 1.6em;
+    }
+    .callbacks_tabs {
+        bottom: -64%;
+        right: 0%;
+    }
+    .welcome-top h2 {
+        margin-top: 26px;
+        font-size: 2.4em;
+    }
+    .welcome-top {
+        padding: 4em 0 4em 15em;
+    }
+    .registry-text {
+        padding: 0.5em 0.5em;
+    }
+    .registry-text h4 {
+        font-size: 1.8em;
+    }
+    .registry-text h6 {
+        font-size: 1.2em;
+        margin-top: 0.3em;
+    }
+    .registry-text p {
+        font-size: 0.75em;
+        margin: 0.5em 0 0em 0;
+    }
+    .program {
+        padding: 4em 0;
+    }
+}
+
+@media (max-width:768px) {
+    .registry-left {
+        float: left;
+        width: 100%;
+    }
+    .registry-text h4 {
+        font-size: 2.6em;
+    }
+    .registry-text h6 {
+        font-size: 1.7em;
+        margin-top: 0.5em;
+    }
+    .registry-text {
+        padding: 2em 2em;
+    }
+    .registry-right {
+        float: right;
+        width: 100%;
+    }
+    .rsvp {
+        width: 46%;
+        margin: 0 auto;
+        top: 23%;
+        left: 27%;
+        padding: 2em 2em;
+    }
+    .top-menu ul li a {
+        position: relative;
+        padding: 16px 4px;
+        font-size: 0.9em;
+    }
+    .banner-info h3 {
+        font-size: 3em;
+    }
+    .banner {
+        min-height: 295px;
+    }
+    .program-img {
+        float: left;
+        width: 100%;
+        padding: 0;
+    }
+    .program-text {
+        float: right;
+        width: 100%;
+        padding: 0;
+        margin-top: 2em;
+    }
+    .registry-text p {
+        font-size: 0.85em;
+        margin: 0.5em 0 0em 0;
+    }
+    .circle {
+        left: 360px;
+        width: 16px;
+        height: 16px;
+    }
+}
+
+@media (max-width:736px) {
+    .groom,
+    .bride {
+        padding: 2em 1.044em;
+    }
+    .callbacks_nav.prev {
+        right: auto;
+        background-position: left top;
+        left: 193px;
+    }
+    .callbacks_nav.next {
+        left: auto;
+        background-position: right top;
+        right: 198px;
+    }
+}
+
+@media (max-width:667px) {
+    .logo a h1 {
+        font-size: 2.6em;
+    }
+    .top-menu ul li a {
+        position: relative;
+        padding: 16px 0px;
+        font-size: 0.9em;
+    }
+    .hands h4 {
+        font-size: 2em;
+        margin-bottom: 11px;
+    }
+    .groom,
+    .bride {
+        padding: 2em 0.35em;
+    }
+    .contact-grid {
+        padding-left: 0;
+        padding: 0;
+    }
+    .circle {
+        left: 264px;
+        width: 16px;
+        height: 16px;
+    }
+    .post {
+        width: 80px;
+        height: 80px;
+        padding: 12px;
+        left: 17em;
+        font-size: 0.9em;
+    }
+}
+
+@media (max-width:640px) {
+    .header-top {
+        padding: 1.2em 0 0 0;
+    }
+    .cl-effect-7 a::before,
+    .cl-effect-7 a::after {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        height: 2px;
+        background: #fff;
+    }
+    .banner {
+        min-height: 276px;
+    }
+    .banner-info h3 {
+        font-size: 2.6em;
+    }
+    .callbacks_tabs a:after {
+        width: 12px;
+        height: 12px;
+    }
+    .couple h5 {
+        font-size: 1.4em;
+    }
+    .couple img {
+        width: 42%;
+    }
+    .groom,
+    .bride {
+        padding: 1em 0.35em;
+    }
+    .main-drop img {
+        width: 32.2%;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .logo a h1 {
+        font-size: 3em;
+    }
+    .main-drop img {
+        width: 32.2%;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .banner-info h3 {
+        font-size: 2.6em;
+    }
+    .banner {
+        min-height: 254px;
+    }
+    .welcome-top {
+        padding: 3em 0 3em 13em;
+    }
+    .registry-text h6 {
+        font-size: 1.5em;
+        margin-top: 0.5em;
+    }
+    .testimonial-content {
+        width: 100%;
+        padding: 1em;
+        border: 4px solid #fff;
+        margin: 5em auto 3em;
+    }
+    h3.tittle {
+        font-size: 3em;
+    }
+    .rsvp {
+        width: 52%;
+        margin: 0 auto;
+        top: 23%;
+        left: 24%;
+        padding: 2em 2em;
+    }
+    .footer-grid {
+        float: left;
+        width: 100%;
+        padding: 0;
+    }
+    .footer-grid {
+        float: left;
+        width: 100%;
+        padding: 0;
+        margin-bottom: 1em;
+    }
+    .footer-grid h4 {
+        font-size: 2em;
+    }
+    ul.bottom li {
+        margin-bottom: 1em;
+        font-size: 0.9em;
+    }
+    .copy p {
+        font-size: 0.85em;
+    }
+    .blog-left {
+        width: 100%;
+        float: left;
+        padding-bottom: 5%;
+        height: 312px;
+    }
+    .blog-right {
+        width: 100%;
+        float: right;
+        position: relative;
+        padding-bottom: 5%;
+    }
+    .circle {
+        left: 360px;
+        width: 16px;
+        height: 16px;
+        display: none;
+    }
+    span.devide-line {
+        width: 0;
+        height: 316px;
+        top: 19px;
+        right: 346px;
+        display: none;
+    }
+    .blog-left {
+        width: 100%;
+        float: left;
+        padding-bottom: 0%;
+        height: 313px;
+    }
+    .blog-right:nth-child(1) {
+        padding-bottom: 1%;
+    }
+    .blog-right:nth-child(2) {
+        padding-bottom: 1%;
+    }
+    .blog-left.second {
+        height: 213px;
+    }
+    .blog-left:nth-child(3) {
+        height: 10px;
+    }
+    .post {
+        width: 80px;
+        height: 80px;
+        padding: 12px;
+        left: 0;
+        font-size: 0.9em;
+        padding-bottom: 3em;
+        bottom: -113em;
+    }
+    .grid figcaption {
+        top: 0;
+        left: 0;
+        padding: 8px 0;
+    }
+    .gallery-section {
+        padding: 3em 0 3em 0;
+    }
+    h2.second-head {
+        font-size: 2.6em;
+    }
+    .banner.two {
+        min-height: 160px;
+    }
+    .footer {
+        padding: 2em 0 1em 0;
+    }
+    .blog-left.two {
+        float: right;
+        height: 202px;
+    }
+    .blog-left.two.last {
+        float: right;
+        height: 309px;
+    }
+    .single-page {
+        padding: 3em 0;
+    }
+}
+
+@media (max-width:600px) {
+    .main-drop img {
+        width: 32.2%;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .hands h4 {
+        font-size: 1.8em;
+        margin-bottom: 11px;
+    }
+    select {
+        width: 100%;
+        font-size: 0.8em;
+        font-weight: 500;
+    }
+    .groom,
+    .bride {
+        padding: 1em 0em;
+        width: 99%;
+    }
+    .couple h5 {
+        font-size: 1.2em;
+    }
+    .cs-style-1 figcaption h3 {
+        font-size: 1em;
+        margin: 0em 0 0.3em 0;
+    }
+    .categorie-grids {
+        margin-top: 1em;
+    }
+    .post {
+        width: 80px;
+        height: 80px;
+        padding: 12px;
+        left: 16px;
+        font-size: 0.9em;
+        padding-bottom: 3em;
+        bottom: -150em;
+    }
+}
+
+@media (max-width:568px) {
+    .groom,
+    .bride {
+        padding: 1em 0em;
+        width: 93%;
+    }
+    .post {
+        width: 80px;
+        height: 80px;
+        padding: 12px;
+        left: 16px;
+        font-size: 0.9em;
+        padding-bottom: 3em;
+        bottom: -154em;
+    }
+}
+
+@media (max-width:480px) {
+    .hands h4 {
+        font-size: 1.4em;
+        margin-bottom: 11px;
+    }
+    select {
+        width: 100%;
+        font-size: 0.7em;
+        font-weight: 500;
+    }
+    .groom,
+    .bride {
+        padding: 1em 0em;
+        width: 77%;
+    }
+    .welcome-top {
+        padding: 3em 0 3em 10em;
+    }
+    .registry-section {
+        padding: 3em 0 0 0;
+    }
+    .callbacks_nav.next {
+        left: auto;
+        background-position: right top;
+        right: 110px;
+    }
+    .callbacks_nav.prev {
+        right: auto;
+        background-position: left top;
+        left: 110px;
+    }
+    .test img {
+        width: 22%;
+    }
+    .testimonial-content {
+        width: 100%;
+        padding: 1em;
+        border: 4px solid #fff;
+        margin: 3em auto 1em;
+    }
+    .friends {
+        min-height: 392px;
+    }
+    .program {
+        padding: 3em 0;
+    }
+    h3.tittle {
+        font-size: 2.7em;
+    }
+    .rsvp {
+        width: 63%;
+        margin: 0 auto;
+        top: 23%;
+        left: 17%;
+        padding: 2em 2em;
+    }
+    .banner {
+        min-height: 224px;
+    }
+    .banner-info {
+        margin-top: 2em;
+        margin-left: 5em;
+    }
+    .banner-info h3 {
+        font-size: 2.3em;
+    }
+    .our-story-text h4 {
+        font-size: 2.4em;
+    }
+    .our-story {
+        padding: 3em 0 2em 0;
+    }
+    .cate-grid {
+        background-size: 100%;
+        margin: 0 7px;
+        width: 45%;
+        padding: 0;
+        margin-bottom: 1.3em;
+    }
+    .cs-style-1 figcaption h3 {
+        font-size: 1.6em;
+        margin: 0.3em 0 0.3em 0;
+    }
+    .section-contact {
+        padding: 3em 0 2em 0;
+    }
+    .banner.two {
+        min-height: 142px;
+    }
+    h2.second-head {
+        font-size: 2.3em;
+    }
+    .welcome-top p {
+        font-size: 0.85em;
+    }
+    .date-single {
+        padding: 1em 1em;
+        font-size: 0.9em;
+    }
+    .date-rotate {
+        padding: 1em 1em;
+    }
+    .post {
+        width: 80px;
+        height: 80px;
+        padding: 12px;
+        left: 0;
+        font-size: 0.9em;
+        padding-bottom: 3em;
+        bottom: -111em;
+    }
+    .post {
+        width: 80px;
+        height: 80px;
+        padding: 12px;
+        left: 10px;
+        font-size: 0.9em;
+        padding-bottom: 3em;
+        bottom: -103em;
+    }
+    .single-text h4,
+    .leave h4,
+    h4.tz-title-4.tzcolor-blue {
+        font-size: 2em;
+    }
+    #commentform label {
+        font-size: 0.9em;
+    }
+    #commentform input[type="text"] {
+        padding: 10px 10px;
+        font-size: 0.9em
+    }
+    h5.m_26 a {
+        float: right;
+        font-size: 1em;
+        padding: 0.6em 1.2em;
+        margin: 0 auto;
+        margin-top: 1em;
+    }
+}
+
+@media (max-width:414px) {
+    .cate-grid {
+        background-size: 100%;
+        margin: 0 7px;
+        width: 42%;
+        padding: 0;
+        margin-bottom: 1.3em;
+    }
+    .cs-style-1 figcaption h3 {
+        font-size: 1.4em;
+        margin: 0.3em 0 0.3em 0;
+    }
+    select {
+        width: 100%;
+        font-size: 0.67em;
+        font-weight: 500;
+        padding: 3px;
+    }
+    .logo a h1 {
+        font-size: 2.8em;
+    }
+    .hands h4 {
+        font-size: 1.2em;
+        margin-bottom: 6px;
+    }
+    .banner-info h3 {
+        font-size: 2em;
+    }
+    .banner {
+        min-height: 154px;
+    }
+    .groom,
+    .bride {
+        padding: 1em 0em;
+        width: 65.5%;
+    }
+    .welcome-top {
+        padding: 2em 0 2em 8em;
+    }
+    .callbacks_nav.prev {
+        right: auto;
+        background-position: left top;
+        left: 73px;
+    }
+    .callbacks_nav.next {
+        left: auto;
+        background-position: right top;
+        right: 79px;
+    }
+    h3.tittle {
+        font-size: 2.5em;
+        margin-bottom: 0.5em;
+    }
+    .program {
+        padding: 2em 0;
+    }
+    h3.tittle.atd {
+        margin: 0em auto 0 0;
+        padding-top: 1em;
+        font-size: 2.2em;
+    }
+    .rsvp {
+        width: 79%;
+        margin: 0 auto;
+        top: 17%;
+        left: 10%;
+        padding: 2em 2em;
+    }
+    .attend form input[type="submit"] {
+        padding: 0.7em 1em;
+        font-size: 0.9em;
+    }
+    .attend {
+        min-height: 541px;
+    }
+    .copy p {
+        font-size: 0.85em;
+        line-height: 1.9em;
+    }
+    .banner.two {
+        min-height: 97px;
+    }
+    h2.second-head {
+        font-size: 2em;
+        padding: 1.1em 0 0 0;
+    }
+    .our-story-text h4 {
+        font-size: 2em;
+    }
+    .testimonial-content p,
+    .program-text p,
+    .program-img p,
+    address,
+    p.para1,
+    .our-story-text p,
+    .single_grid2 p,
+    .single-text p {
+        font-size: 0.85em;
+    }
+    .our-story-top {
+        margin-bottom: 1em;
+    }
+    .blog-left {
+        width: 100%;
+        float: left;
+        padding-bottom: 0%;
+        height: 247px;
+    }
+    .blog-left.two {
+        float: right;
+        height: 235px;
+    }
+    .blog-left.two.last {
+        float: right;
+        height: 240px;
+    }
+    .post {
+        width: 80px;
+        height: 80px;
+        padding: 12px;
+        left: 10px;
+        font-size: 0.9em;
+        padding-bottom: 3em;
+        bottom: -103em;
+    }
+    .preview {
+        float: left;
+        width: 24%;
+        padding-left: 0;
+    }
+    .data {
+        padding: 0;
+        float: right;
+        width: 76%;
+    }
+    .cs-style-1 figcaption h3 {
+        font-size: 1.2em;
+        margin: 0.2em 0 0em 0;
+    }
+    .welcome-top h2 {
+        margin-top: 20px;
+        font-size: 2em;
+    }
+    .registry-text h4 {
+        font-size: 2em;
+    }
+    .registry-text h6 {
+        font-size: 1.4em;
+        margin-top: 0.5em;
+    }
+    .friends-section {
+        padding: 2em 0 0 0;
+    }
+}
+
+@media (max-width:384px) {
+    .blog-right h4,
+    .blog-left h4 {
+        font-size: 2em;
+    }
+    .blog-left p {
+        font-size: 0.8755em;
+        width: 100%;
+    }
+    .blog-right h6,
+    .blog-left h6 {
+        font-size: 1.4em;
+    }
+    .ceremony {
+        padding: 2em 0;
+    }
+    .blog-left {
+        width: 100%;
+        float: left;
+        padding-bottom: 0%;
+        height: 176px;
+    }
+    .blog-left.two.last {
+        float: right;
+        height: 167px;
+    }
+    .blog-left.two {
+        float: right;
+        height: 247px;
+    }
+    .blog-left.second {
+        height: 237px;
+    }
+    h3.tittle {
+        font-size: 2.3em;
+        margin-bottom: 0.5em;
+    }
+    .post {
+        width: 60px;
+        height: 60px;
+        padding: 5px;
+        left: 10px;
+        font-size: 0.7em;
+        padding-bottom: 3em;
+        bottom: -122em;
+    }
+    .program-img h4 {
+        margin-top: 20px;
+        font-size: 1.8em;
+    }
+    .program-text p,
+    .program-img p {
+        font-size: 0.85em;
+        margin: 0.5em 0 0em 0;
+    }
+    .post-text h4 {
+        font-size: 1.6em;
+    }
+    .post-time a {
+        padding: 0.6em 0.7em;
+        font-size: 0.6em;
+    }
+    h3.tittle.atd {
+        margin: 0em auto 0 0;
+        padding-top: 1em;
+        font-size: 1.8em;
+    }
+    .rsvp {
+        width: 82%;
+        margin: 0 auto;
+        top: 15%;
+        left: 9%;
+        padding: 1em 1em;
+    }
+    .attend form input[type="submit"] {
+        padding: 0.6em 1em;
+        font-size: 0.9em;
+    }
+    .attend {
+        min-height: 487px;
+    }
+    .footer-grid h4 {
+        font-size: 1.8em;
+    }
+    .logo a h1 {
+        font-size: 2.5em;
+    }
+    span.menu {
+        width: 35px;
+        height: 35px;
+        background: url('../images/nav.png') no-repeat;
+        display: inline-block;
+        cursor: pointer;
+        float: right;
+        margin: 0.4em 0;
+    }
+    .cate-grid {
+        background-size: 100%;
+        margin: 0 7px;
+        width: 95%;
+        padding: 0;
+        margin-bottom: 1.3em;
+    }
+    .cs-style-1 figcaption h3 {
+        font-size: 1.8em;
+        margin: 0.5em 0 0.3em 0;
+    }
+    .cs-style-1 figcaption a {
+        margin-top: 0.8em;
+        padding: 8px 21px;
+        font-size: 0.8em;
+    }
+    .gallery-section {
+        padding: 2em 0 2em 0;
+    }
+    .date-rotate {
+        padding: 0.7em 0.7em;
+    }
+    .date-rotate span {
+        font-size: 0.9em;
+    }
+    .our-story-text p {
+        font-size: 0.85em;
+        margin: 0.3em 0 0em 0;
+    }
+    .testimonial-content p {
+        font-size: 0.8em;
+    }
+    .testimonial-content {
+        width: 100%;
+        padding: 1em 0.5em;
+        margin: 2em auto 1em;
+    }
+    .friends {
+        min-height: 353px;
+    }
+    .callbacks_nav.next {
+        left: auto;
+        background-position: right top;
+        right: 43px;
+    }
+    .callbacks_nav.prev {
+        right: auto;
+        background-position: left top;
+        left: 42px;
+    }
+    .callbacks_nav {
+        top: 4%;
+        height: 70px;
+        width: 40px;
+        background: transparent url("../images/arrows.png") no-repeat left top;
+        margin-top: 0%;
+    }
+    .single-page {
+        padding: 2em 0;
+    }
+    .contact-in h5 {
+        font-size: 1.6em;
+    }
+    .section-contact {
+        padding: 2em 0 2em 0;
+    }
+    address a {
+        font-size: 1em;
+    }
+    .contact-grid textarea {
+        resize: none;
+        min-height: 101px;
+    }
+    .map {
+        padding-bottom: 2em;
+    }
+    .map iframe {
+        height: 200px;
+    }
+    .program {
+        padding: 3em 0 2em 0;
+    }
+    .callbacks_tabs li {
+        display: block;
+        margin: 0em .0em;
+    }
+    .banner-info h3 {
+        font-size: 1.8em;
+    }
+    .hands h4 {
+        font-size: 1em;
+        margin-bottom: 6px;
+    }
+    .hands {
+        top: 59%;
+        left: 3%;
+    }
+    select {
+        width: 100%;
+        font-size: 0.6em;
+        font-weight: 500;
+        padding: 3px;
+    }
+    .groom,
+    .bride {
+        padding: 0.5em 0em;
+        width: 48.55%;
+    }
+    .couple h5 {
+        font-size: 1em;
+        padding: 0;
+        margin: 10px 0 0 0;
+    }
+    .main-drop img {
+        width: 26.2%;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .couple img {
+        width: 62%;
+    }
+    .welcome-top h2 {
+        margin-top: 20px;
+        font-size: 1.8em;
+    }
+    .welcome-top {
+        padding: 2em 0 2em 6em;
+    }
+    .welcome-top a {
+        padding: 13px 13px;
+        font-size: 0.8em;
+    }
+    .registry-text {
+        padding: 2em 1em;
+    }
+}
+
+@media (max-width:375px) {
+    .blog-right h4,
+    .blog-left h4 {
+        font-size: 2em;
+    }
+    .blog-left p {
+        font-size: 0.8755em;
+        width: 100%;
+    }
+    .blog-right h6,
+    .blog-left h6 {
+        font-size: 1.4em;
+    }
+    .ceremony {
+        padding: 2em 0;
+    }
+    .blog-left {
+        width: 100%;
+        float: left;
+        padding-bottom: 0%;
+        height: 176px;
+    }
+    .blog-left.two.last {
+        float: right;
+        height: 167px;
+    }
+    .blog-left.two {
+        float: right;
+        height: 247px;
+    }
+    .blog-left.second {
+        height: 237px;
+    }
+    h3.tittle {
+        font-size: 2.3em;
+        margin-bottom: 0.5em;
+    }
+    .post {
+        width: 60px;
+        height: 60px;
+        padding: 5px;
+        left: 10px;
+        font-size: 0.7em;
+        padding-bottom: 3em;
+        bottom: -121em;
+    }
+    .program-img h4 {
+        margin-top: 20px;
+        font-size: 1.8em;
+    }
+    .program-text p,
+    .program-img p {
+        font-size: 0.85em;
+        margin: 0.5em 0 0em 0;
+    }
+    .post-text h4 {
+        font-size: 1.6em;
+    }
+    .post-time a {
+        padding: 0.6em 0.7em;
+        font-size: 0.6em;
+    }
+    h3.tittle.atd {
+        margin: 0em auto 0 0;
+        padding-top: 1em;
+        font-size: 1.8em;
+    }
+    .rsvp {
+        width: 82%;
+        margin: 0 auto;
+        top: 15%;
+        left: 9%;
+        padding: 1em 1em;
+    }
+    .attend form input[type="submit"] {
+        padding: 0.6em 1em;
+        font-size: 0.9em;
+    }
+    .attend {
+        min-height: 487px;
+    }
+    .footer-grid h4 {
+        font-size: 1.8em;
+    }
+    .logo a h1 {
+        font-size: 2.5em;
+    }
+    span.menu {
+        width: 35px;
+        height: 35px;
+        background: url('../images/nav.png') no-repeat;
+        display: inline-block;
+        cursor: pointer;
+        float: right;
+        margin: 0.4em 0;
+    }
+    .cate-grid {
+        background-size: 100%;
+        margin: 0 7px;
+        width: 95%;
+        padding: 0;
+        margin-bottom: 1.3em;
+    }
+    .cs-style-1 figcaption h3 {
+        font-size: 1.8em;
+        margin: 0.5em 0 0.3em 0;
+    }
+    .cs-style-1 figcaption a {
+        margin-top: 0.8em;
+        padding: 8px 21px;
+        font-size: 0.8em;
+    }
+    .gallery-section {
+        padding: 2em 0 2em 0;
+    }
+    .date-rotate {
+        padding: 0.7em 0.7em;
+    }
+    .date-rotate span {
+        font-size: 0.9em;
+    }
+    .our-story-text p {
+        font-size: 0.85em;
+        margin: 0.3em 0 0em 0;
+    }
+    .testimonial-content p {
+        font-size: 0.8em;
+    }
+    .testimonial-content {
+        width: 100%;
+        padding: 1em 0.5em;
+        margin: 2em auto 1em;
+    }
+    .friends {
+        min-height: 353px;
+    }
+    .callbacks_nav.next {
+        left: auto;
+        background-position: right top;
+        right: 43px;
+    }
+    .callbacks_nav.prev {
+        right: auto;
+        background-position: left top;
+        left: 42px;
+    }
+    .callbacks_nav {
+        top: 4%;
+        height: 70px;
+        width: 40px;
+        background: transparent url("../images/arrows.png") no-repeat left top;
+        margin-top: 0%;
+    }
+    .single-page {
+        padding: 2em 0;
+    }
+    .contact-in h5 {
+        font-size: 1.6em;
+    }
+    .section-contact {
+        padding: 2em 0 2em 0;
+    }
+    address a {
+        font-size: 1em;
+    }
+    .contact-grid textarea {
+        resize: none;
+        min-height: 101px;
+    }
+    .map {
+        padding-bottom: 2em;
+    }
+    .map iframe {
+        height: 200px;
+    }
+    .program {
+        padding: 3em 0 2em 0;
+    }
+    .callbacks_tabs li {
+        display: block;
+        margin: 0em .0em;
+    }
+    .banner-info h3 {
+        font-size: 1.8em;
+    }
+    .hands h4 {
+        font-size: 1em;
+        margin-bottom: 6px;
+    }
+    .hands {
+        top: 59%;
+        left: 3%;
+    }
+    select {
+        width: 100%;
+        font-size: 0.6em;
+        font-weight: 500;
+        padding: 3px;
+    }
+    .groom,
+    .bride {
+        padding: 0.5em 0em;
+        width: 48.55%;
+    }
+    .couple h5 {
+        font-size: 1em;
+        padding: 0;
+        margin: 10px 0 0 0;
+    }
+    .main-drop img {
+        width: 27.2%;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .couple img {
+        width: 62%;
+    }
+    .welcome-top h2 {
+        margin-top: 20px;
+        font-size: 1.8em;
+    }
+    .welcome-top {
+        padding: 2em 0 2em 6em;
+    }
+    .welcome-top a {
+        padding: 13px 13px;
+        font-size: 0.8em;
+    }
+    .registry-text {
+        padding: 2em 1em;
+    }
+}
+
+@media (max-width:320px) {
+    .blog-right h4,
+    .blog-left h4 {
+        font-size: 2em;
+    }
+    .blog-left p {
+        font-size: 0.8755em;
+        width: 100%;
+    }
+    .blog-right h6,
+    .blog-left h6 {
+        font-size: 1.4em;
+    }
+    .ceremony {
+        padding: 2em 0;
+    }
+    .blog-left {
+        width: 100%;
+        float: left;
+        padding-bottom: 0%;
+        height: 176px;
+    }
+    .blog-left.two.last {
+        float: right;
+        height: 167px;
+    }
+    .blog-left.two {
+        float: right;
+        height: 247px;
+    }
+    .blog-left.second {
+        height: 237px;
+    }
+    h3.tittle {
+        font-size: 2.3em;
+        margin-bottom: 0.5em;
+    }
+    .post {
+        width: 60px;
+        height: 60px;
+        padding: 5px;
+        left: 10px;
+        font-size: 0.7em;
+        padding-bottom: 3em;
+        bottom: -128em;
+    }
+    .program-img h4 {
+        margin-top: 20px;
+        font-size: 1.8em;
+    }
+    .program-text p,
+    .program-img p {
+        font-size: 0.85em;
+        margin: 0.5em 0 0em 0;
+    }
+    .post-text h4 {
+        font-size: 1.6em;
+    }
+    .post-time a {
+        padding: 0.6em 0.7em;
+        font-size: 0.6em;
+    }
+    h3.tittle.atd {
+        margin: 0em auto 0 0;
+        padding-top: 1em;
+        font-size: 1.8em;
+    }
+    .rsvp {
+        width: 82%;
+        margin: 0 auto;
+        top: 15%;
+        left: 9%;
+        padding: 1em 1em;
+    }
+    .attend form input[type="submit"] {
+        padding: 0.6em 1em;
+        font-size: 0.9em;
+    }
+    .attend {
+        min-height: 487px;
+    }
+    .footer-grid h4 {
+        font-size: 1.8em;
+    }
+    .logo a h1 {
+        font-size: 2.5em;
+    }
+    span.menu {
+        width: 35px;
+        height: 35px;
+        background: url('../images/nav.png') no-repeat;
+        display: inline-block;
+        cursor: pointer;
+        float: right;
+        margin: 0.4em 0;
+    }
+    .cate-grid {
+        background-size: 100%;
+        margin: 0 7px;
+        width: 95%;
+        padding: 0;
+        margin-bottom: 1.3em;
+    }
+    .cs-style-1 figcaption h3 {
+        font-size: 1.8em;
+        margin: 0.5em 0 0.3em 0;
+    }
+    .cs-style-1 figcaption a {
+        margin-top: 0.8em;
+        padding: 8px 21px;
+        font-size: 0.8em;
+    }
+    .gallery-section {
+        padding: 2em 0 2em 0;
+    }
+    .date-rotate {
+        padding: 0.7em 0.7em;
+    }
+    .date-rotate span {
+        font-size: 0.9em;
+    }
+    .our-story-text p {
+        font-size: 0.85em;
+        margin: 0.3em 0 0em 0;
+    }
+    .testimonial-content p {
+        font-size: 0.8em;
+    }
+    .testimonial-content {
+        width: 100%;
+        padding: 1em 0.5em;
+        margin: 2em auto 1em;
+    }
+    .friends {
+        min-height: 353px;
+    }
+    .callbacks_nav.next {
+        left: auto;
+        background-position: right top;
+        right: 43px;
+    }
+    .callbacks_nav.prev {
+        right: auto;
+        background-position: left top;
+        left: 42px;
+    }
+    .callbacks_nav {
+        top: 4%;
+        height: 70px;
+        width: 40px;
+        background: transparent url("../images/arrows.png") no-repeat left top;
+        margin-top: 0%;
+    }
+    .single-page {
+        padding: 2em 0;
+    }
+    .contact-in h5 {
+        font-size: 1.6em;
+    }
+    .section-contact {
+        padding: 2em 0 2em 0;
+    }
+    address a {
+        font-size: 1em;
+    }
+    .contact-grid textarea {
+        resize: none;
+        min-height: 101px;
+    }
+    .map {
+        padding-bottom: 2em;
+    }
+    .map iframe {
+        height: 200px;
+    }
+    .program {
+        padding: 3em 0 2em 0;
+    }
+    .callbacks_tabs li {
+        display: block;
+        margin: 0em .0em;
+    }
+    .banner-info h3 {
+        font-size: 1.8em;
+    }
+    .hands h4 {
+        font-size: 1em;
+        margin-bottom: 6px;
+    }
+    .hands {
+        top: 59%;
+        left: 3%;
+    }
+    select {
+        width: 100%;
+        font-size: 0.6em;
+        font-weight: 500;
+        padding: 3px;
+    }
+    .groom,
+    .bride {
+        padding: 0.5em 0em;
+        width: 48.55%;
+    }
+    .couple h5 {
+        font-size: 1em;
+        padding: 0;
+        margin: 10px 0 0 0;
+    }
+    .main-drop img {
+        width: 32.2%;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .couple img {
+        width: 62%;
+    }
+    .welcome-top h2 {
+        margin-top: 20px;
+        font-size: 1.8em;
+    }
+    .welcome-top {
+        padding: 2em 0 2em 6em;
+    }
+    .welcome-top a {
+        padding: 13px 13px;
+        font-size: 0.8em;
+    }
+    .registry-text {
+        padding: 2em 1em;
+    }
+}
